@@ -1,0 +1,116 @@
+﻿<html>
+
+     <head>
+     <title> Mi web-site tablas </title>
+     </head>
+
+	<body>
+	<center>
+
+		<!--Desarrollo de Tabla-->
+
+		<table>
+
+		<table border="2">
+
+		<!--filas 1-->
+
+			<tr>
+			<!--columnas-->
+			<td colspan=2 width="800" height="100"></td>
+			</tr>
+
+		<!--filas 2-->
+
+			<tr>
+			<!--columnas-->
+			<td colspan=2 height="80"></td>
+			</tr>
+
+
+		<!--filas 3-->
+
+			<tr>
+				<!--columnas-->
+				<td width="50%">
+				<!--Formulario -->
+				<form action="guardar.php" method="get"><!--Etiqueta del formulario (obligatoria) -->
+				<fieldset><!--marco para el formulario (obligatoria) -->
+				<legend>Consulta</legend> <!--Etiqueta del titulo del formulario (obligatoria) -->   
+	
+				<!--Entradas -->
+	
+				<p>nombre: <input type="text" name="nombre" size="40"></p>
+				<p>apellido: <input type="text" name="apellido" size="40"></p>
+				
+
+	
+				<p>sexo:
+				<input type="radio" name="hm" value="n" checked>Ninguno
+				<input type="radio" name="hm" value="h">Hombre
+				<input type="radio" name="hm" value="m">Mujer
+				<input type="radio" name="hm" value="o">Otro
+				</p>
+				
+				<p>ocupación:
+				<select name="Ocupación" id="op">
+					<option value="op">Ninguno</option>
+					<option value="op">Administrativo</option>
+					<option value="op">Operativo</option>
+					<option value="op">Soporte</option>
+				</select>
+				</p>
+
+				<p>intereses:
+					<input type="checkbox" name="in" value="s" checked>nadar
+					<input type="checkbox" name="in" value="mv">ir al cine
+					<input type="checkbox" name="in" value="e">comer
+				</p>
+
+				<p>Correo: <input type="text" name="apellido" size="40"></p>
+				
+				<p>
+				<input type="submit" value="Guardar">
+				<input type="reset" value="Borrar">
+				</p>
+	
+
+				
+				</fieldset>
+				</form>
+
+			</td>
+			<td>		
+						<table>
+						<table border="1" width="100%" height="300">
+
+						<!--filas 1-->
+
+						<tr>
+						<!--columnas-->
+						<td><center><h2>Texto 1<h2><center></td>
+						</tr>
+
+						<!--filas 2-->
+
+						<tr>
+						<!--columnas-->
+						<td><center><h2>Texto 2<h2><center></td>
+						</tr>
+						</table>
+			</td>
+			</tr>
+
+
+		<!--filas 4-->
+
+			<tr>
+			<!--columnas-->
+			<td colspan=2 height="90"></td>
+			</tr>
+		</table>
+
+	<center>
+	</body>
+
+</html>
