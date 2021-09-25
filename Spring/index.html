@@ -1,0 +1,73 @@
+<html> 
+
+   <head>
+         
+      <link href="estilos.css" rel="stylesheet" type="text/css">
+      
+   </head>
+
+	<body>
+      
+      <div id="Logo">
+         <label>Logo</label>
+      </div> 
+
+				<!--Formulario -->
+				
+            <div id="form-Registro">
+
+               <form action="guardar.php" method="get"><!--Etiqueta del formulario (obligatoria) -->
+
+                  <div id="Registro">
+                     <p>Registro</p>
+                  </div>
+
+                  <!--Entradas -->
+                  <div id="Documento"><p>Tipo de documento:</p></div>
+                  <p>
+                     <div id="SeleccionDocumento"><select name="Ocupación" id="op">
+                        <option value="op">Cédula de ciudadania</option>
+                        <option value="op">Cédula de extranjería</option>
+                        <option value="op">Pasaporte</option>
+                        <option value="op">Otro</option>
+                     </select></div>
+                     </p>
+
+                     <div id="numeroDOC"><p>Número de documento:</p></div>
+               
+                     <div id="SeleccionNumeroDOC">
+                        <p><input type="text" name="Ndocumento" size="40" required></p>
+                     </div>
+            
+         
+                  <div id="correo"><p>Correo:</p></div>
+               
+                  <div id="correoSeleccion">
+                     <p><input type="text" name="email" size="40" required></p>
+                  </div>
+               
+                  <div id="contraseña"><p>Contraseña:</p></div>
+                  
+                  <div id="contraseñaSeleccion">
+                     <p><input type="password" name="password" size="40" required></p>
+                    </div>
+
+                    <div id="btn-registrar"></div>
+                     <center>
+                        <br><button>Registrar</button>
+                     </center>
+                    </div>
+                    
+                </form>
+            
+               </div>                
+                
+          <!--pie de pagina-->      
+      <footer id="footer">
+         
+         Footer
+      </footer>
+
+   </body>
+
+</html>
